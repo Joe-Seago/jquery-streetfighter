@@ -2,12 +2,16 @@ $(document).ready(function() {
 	/*console.log("hello world"); */
 
 $(".ryu").mouseenter(function() {
-	$(".ryustill").hide();
+	$(".ryuimg").hide();
 	$(".ryuready").show();
 }).mouseleave(function() {
-	$(".ryuready").hide();
+	$(".ryuimg").hide();
 	$(".ryustill").show();
-});
+}).mousedown(function() {
+	$(".ryuimg").hide();
+	$(".ryuthrow").show();
+	$(".hadouken").show();
+})
 
 
 

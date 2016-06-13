@@ -33,13 +33,24 @@ body {
   background-image: url('../images/ryu-standing-still.png');
 }
 
-.ryuthrowing {
+.ryuthrow {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
-
 .hadouken, .ryuready, .ryustill, .ryuthrow {
 	background-repeat: no-repeat;
+}
+
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  width: 156px; 
+  height: 90px;
+  display: none
+  float: left;
+  position: absolute;
+  z-index: 10;
+  top: 160px;
+  left: 550px;
 }
 
 
