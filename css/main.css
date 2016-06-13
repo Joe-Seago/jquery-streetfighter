@@ -29,14 +29,17 @@ body {
 .ryuready {
   background-image: url('../images/ryu-ready-position.gif');}
 
-.ryu-still {
+.ryustill {
   background-image: url('../images/ryu-standing-still.png');
 }
 
-.ryu-throwing {
+.ryuthrowing {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
 
+.hadouken, .ryuready, .ryustill, .ryuthrow {
+	background-repeat: no-repeat;
+}
 
 
