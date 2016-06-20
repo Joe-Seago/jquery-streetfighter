@@ -46,6 +46,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.instructions {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 2em;
+	margin: 10px auto;
+}
+
 .hadouken {
   background-image: url('../images/hadouken.gif');
   width: 156px; 
@@ -54,7 +61,7 @@ body {
   float: left;
   position: absolute;
   z-index: 10;
-  top: 160px;
+  top: 350px;
   left: 520px;
   display: none;
 }
